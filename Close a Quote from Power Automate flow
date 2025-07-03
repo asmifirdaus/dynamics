@@ -1,0 +1,20 @@
+Close a Quote using Power Automate
+
+Perform an unbound action Close Quote with this JSON 
+
+Action Name: trim('CloseQuote')
+
+{
+  "QuoteClose": {
+    "actualend": "2025-06-25T16:54:22.286Z",
+    "quoteid@odata.bind": "/quotes(<QUOTE_GUID>)",
+    "subject": "Quote Closed ({0}) - {1}",
+    "description": null,
+    "quotenumber": "<QUOTE_NUMBER>",
+    "revision": 1,
+    "ownerid_quoteclose@odata.bind": "/systemusers(<USER_GUID>)"
+  },
+  "Status": 6
+}
+
+//https://community.powerplatform.com/forums/thread/details/?threadid=90c1722b-a71f-f011-9989-6045bddb894e
